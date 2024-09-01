@@ -1,4 +1,4 @@
- .header { 
+.header { 
     display: grid; 
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
@@ -249,15 +249,14 @@
 
 .footer {
     display: grid;
-    grid-template-columns: 240px 1fr 1fr;
+    grid-template-columns: 240px 149px 1fr;
     align-items: start;
     gap: 185px;
     padding: 180px 50px 88px;
 }
 
 .footer__menu-list,
-.footer__social-list
- {
+.footer__social-list {
     list-style: none;
 }
 
