@@ -249,7 +249,7 @@
 
 .footer {
     display: grid;
-    grid-template-columns: 240px 149px 1fr;
+    grid-template-columns: 240px 150px 1fr;
     align-items: start;
     gap: 185px;
     padding: 180px 50px 88px;
@@ -261,6 +261,8 @@
 }
 
 .footer__menu-list {
+    display: flex;
+    flex-direction: column;
     font-weight: normal;
     font-size: 18px;
     text-align: center;
