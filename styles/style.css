@@ -39,6 +39,7 @@
 .address {
     font-weight: normal;
     font-size: 18px;
+    font-style: normal;
     line-height: 24.3px;
     text-underline-offset: 4px;
 }
@@ -249,7 +250,7 @@
 
 .footer {
     display: grid;
-    grid-template-columns: 240px 150px 1fr;
+    grid-template-columns: 240px 150px 240px;
     align-items: start;
     gap: 185px;
     padding: 180px 50px 88px;
